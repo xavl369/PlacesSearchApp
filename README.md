@@ -36,8 +36,16 @@ Follow these steps to install and run the project locally:
 4. For more information about the endpoints visit: https://developer.foursquare.com/reference/place-search.
 5. Update the connection string in the `appsettings.json` file to match your desired database configuration.
 
+
+## Images
+
+Sample images related to the project:
+
+![image](https://github.com/xavl369/PlacesSearchApp/assets/31866236/61342453-415a-4ed8-928d-50c23cb728f8)
+
+![image](https://github.com/xavl369/PlacesSearchApp/assets/31866236/a437ed19-93c8-43c1-b36f-be5585a71706)
+
+
 ## Contributors
 
 - Abraham Saul Sandoval Meneses
-
-

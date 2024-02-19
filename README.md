@@ -1,6 +1,6 @@
 # Places Search App
 
-This is a web application designed to search for places based on latitude and longitude coordinates. It utilizes a user interface where users can input latitude, longitude, and select a category to search for places. The application displays the places on a map and provides additional details about each place when the user clicks on its marker.
+This is a web application designed to search for places based on latitude and longitude coordinates. It utilizes a user interface where users can input latitude, longitude or select desired location by double click and select a category to search for places. The application displays the places on a map and provides additional details about each place when the user clicks on its marker.
 
 ## Features
 

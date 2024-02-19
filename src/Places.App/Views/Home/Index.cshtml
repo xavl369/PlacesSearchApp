@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <label for="latitude" class="form-label">Latitude:</label>
+            <input type="number" class="form-control" id="latitude">
+        </div>
+        <div class="col-md-4">
+            <label for="longitude" class="form-label">Longitude:</label>
+            <input type="number" class="form-control" id="longitude">
+        </div>
+        <div class="col-md-4">
+            <label for="selectLocation" class="form-label">Category:</label>
+            <select class="form-select" id="selectLocation">
+                <option value="undefined" selected>Select an option</option>
+            </select>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-md-12">
+            <div id="map" style="height:700px;width:100%;"></div>
+        </div>
+    </div>
+
+    <partial name="_PlacesTablePartial" />
+
+    <input type="hidden" id="foursquareAPIUrl" value="@ViewBag.FoursquareAPIUrl" />
+    <input type="hidden" id="foursquareAPIKey" value="@ViewBag.FoursquareAPIKey" />
+    <input type="hidden" id="message" value="@ViewBag.Message" />
+    
+</div>
+
+@section PlaceStyles {
+    <partial name="_PlacesStylesPartial" />
+}
+
+@section PlaceScripts {
+    <partial name="_PlacesScriptsPartial" />
+}
+
+
+

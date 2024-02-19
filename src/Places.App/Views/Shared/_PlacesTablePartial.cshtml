@@ -1,0 +1,36 @@
+﻿@model IEnumerable<PlaceViewModel>
+
+<div class="container">
+    <h1 class="text-center">Places</h1>
+    <div class="table-responsive">
+        <table class="table table-striped table-hover" id="places-table">
+            <thead class="thead-dark">
+                <tr>
+                    <th> @Html.DisplayNameFor(model => model.Id)</th>
+                    <th> @Html.DisplayNameFor(model => model.Name)</th>
+                    <th> @Html.DisplayNameFor(model => model.Address)</th>
+                    <th> @Html.DisplayNameFor(model => model.Coordinates)</th>
+                    <th> @Html.DisplayNameFor(model => model.Image)</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var place in Model)
+                {
+                    <tr>
+                        <td>@place.Id</td>
+                        <td>@place.Name</td>
+                        <td>@place.Address</td>
+                        <td>@place.Coordinates</td>
+                        <td>
+                            <img src="@place.Image" alt="Image" class="img-thumbnail" />
+                        </td>
+                        <td>
+                            <a asp-action="Delete" asp-route-id="@place.Id">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

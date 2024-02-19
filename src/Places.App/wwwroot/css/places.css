@@ -1,0 +1,27 @@
+﻿.save-button-container {
+    margin-top: 9px;
+    text-align: center;
+}
+
+.title {
+    font-size: 14px;
+}
+
+.place-photo {
+    width: 252px;
+    height: 252px;
+    object-fit: contain;
+}
+
+.photo-container {
+    text-align: center;
+}
+
+.container {
+    margin-top: 9px !important;
+}
+.img-thumbnail {
+    max-width: 50px !important; 
+    max-height: 50px !important;
+}
+

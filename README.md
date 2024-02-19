@@ -41,9 +41,9 @@ Follow these steps to install and run the project locally:
 
 Sample images related to the project:
 
-![image](https://github.com/xavl369/PlacesSearchApp/assets/31866236/61342453-415a-4ed8-928d-50c23cb728f8)
+![image](https://github.com/xavl369/PlacesSearchApp/assets/31866236/1b36cc90-f34b-4155-b9e1-92ea11a625df)
 
-![image](https://github.com/xavl369/PlacesSearchApp/assets/31866236/a437ed19-93c8-43c1-b36f-be5585a71706)
+![image](https://github.com/xavl369/PlacesSearchApp/assets/31866236/9f8ee3a8-f954-4dd5-aed0-8a2936e88b79)
 
 
 ## Contributors
